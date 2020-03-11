@@ -1,10 +1,12 @@
 # Coding Concepts Sprint 4 - React
 
-* ## [React Syntax](react_syntax.md)
-* ## [JSX](jsx.md)
-* ## [Rendering Components](rendering_components.md)
-* ## [Life Cycle Methods](life_cycle_methods.md)
-* ## [Lifting State](lifting_state.md)
+* ### [React Syntax](react_syntax.md)
+* ### [JSX](jsx.md)
+* ### [Rendering Components](rendering_components.md)
+* ### [Life Cycle Methods](life_cycle_methods.md)
+* ### [Lifting State](lifting_state.md)
+
+## [Resources From Class](./resources.md)
 
 ## General Resources 
 [Creating a react app - React Documentation](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
