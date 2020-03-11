@@ -75,6 +75,9 @@ export default ComponentName;
 ```JSX
 import React, { Component } from 'react';
 class ComponentName extends Component {
+  constructor(props){
+        super(props);
+    }
     render() {
         // Any JS you want to run
         return (
@@ -117,6 +120,9 @@ Class based components `extend` the base `Component` class which is exported at 
 ```JSX
 import React, { Component } from 'react';
 class ChildClassComponent extends Component {
+  constructor(props){
+        super(props);
+    }
     render() {
         return (
             <div className="CSS-Class">
