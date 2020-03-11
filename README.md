@@ -6,9 +6,9 @@
 * ### [Life Cycle Methods](life_cycle_methods.md)
 * ### [Lifting State](lifting_state.md)
 
-## [Resources From Class](./resources.md)
+### [Assignments](./assignments.md)
 
-## General Resources 
+### General Resources 
 [Creating a react app - React Documentation](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 
 [React Tutorial - React Documentation](https://reactjs.org/tutorial/tutorial.html#setup-option-1-write-code-in-the-browser)
