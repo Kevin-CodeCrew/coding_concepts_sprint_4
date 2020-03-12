@@ -14,6 +14,16 @@ Introduction to React using function based components
 Render Class Based Components
 - [Lecture Repo Link](https://classroom.github.com/a/n2CDh3FC)
 - [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/react-class-components-lecture-20200311-autumn-ragland)
+- [CW Repo Link](https://classroom.github.com/a/FMt8Fqo9)
+- [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/react-class-components1-cw-autumn-ragland)
+- [Classwork Review Video](#)
+
+## 03/12/2020
+Review + State + Life Cycle Methods
+- [Lecture Repo Link](#)
+- [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day3-lecture-autumn-ragland)
+- [IC Repo Link](#)
+- [IC Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day-3-ic-autumn-ragland)
 - [CW Repo Link](#)
-- [CW Answer Repo](#)
+- [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day-3-cw-autumn-ragland)
 - [Classwork Review Video](#)
