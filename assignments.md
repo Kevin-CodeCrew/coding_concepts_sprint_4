@@ -20,10 +20,16 @@ Render Class Based Components
 
 ## 03/12/2020
 Review + State + Life Cycle Methods
-- [Lecture Repo Link](#)
+- [Lecture Repo Link](https://classroom.github.com/a/ToQ1zz0v)
 - [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day3-lecture-autumn-ragland)
-- [IC Repo Link](#)
-- [IC Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day-3-ic-autumn-ragland)
-- [CW Repo Link](#)
+- [CW Repo Link](https://classroom.github.com/a/JzxnxN2l)
 - [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day-3-cw-autumn-ragland)
+- [Classwork Review Video](#)
+
+## 03/13/2020
+State + Lifting State + Events
+- [Lecture Repo Link](https://classroom.github.com/a/Mk2q1wFC)
+- [Lecture Answer Repo]( https://github.com/cs-fullstack-2020-spring/react-lift-state-20200313-autumn-ragland)
+- [CW Repo Link](https://classroom.github.com/a/kYLXAfzW)
+- [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/react-lift-state-cw-autumn-ragland)
 - [Classwork Review Video](#)
