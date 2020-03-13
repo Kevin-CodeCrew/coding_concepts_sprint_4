@@ -24,7 +24,7 @@ Review + State + Life Cycle Methods
 - [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day3-lecture-autumn-ragland)
 - [CW Repo Link](https://classroom.github.com/a/JzxnxN2l)
 - [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/react-day-3-cw-autumn-ragland)
-- [Classwork Review Video](#)
+- [Classwork Review Video](https://youtu.be/qGJy_6DspTQ)
 
 ## 03/13/2020
 State + Lifting State + Events
