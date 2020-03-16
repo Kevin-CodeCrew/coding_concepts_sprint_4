@@ -17,4 +17,5 @@
 [Intro To React - YouTube Video](https://www.youtube.com/watch?v=MhkGQAoc7bc)
 
 [React Hello World App - React Documentation](https://reactjs.org/docs/rendering-elements.html)
+[Thinking in React - Agreat resource to refer to often as you learn more and more about React](https://reactjs.org/docs/thinking-in-react.html)
 
