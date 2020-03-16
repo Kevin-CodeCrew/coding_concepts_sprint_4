@@ -4,7 +4,8 @@
 * ### [JSX](jsx.md)
 * ### [Rendering Components](rendering_components.md)
 * ### [Life Cycle Methods](life_cycle_methods.md)
-* ### [Lifting State](lifting_state.md)
+* ### [React Forms](react_forms.md)
+
 
 ### [Assignments](./assignments.md)
 
