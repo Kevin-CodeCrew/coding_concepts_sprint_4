@@ -38,3 +38,8 @@ State + Lifting State + Events
 Events + Forms
 - [Lecture Repo Link](https://classroom.github.com/a/pdrK8eyP)
 - [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-lecture-autumn-ragland)
+- [IC Repo Link](https://classroom.github.com/a/pSVOjGF6)
+- [IC Answer Repo](https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-ic-autumn-ragland)
+- [CW Repo Link](https://classroom.github.com/a/preVjhwp)
+- [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-cw-autumn-ragland)
+- [Classwork Review Video](https://youtu.be/9bolMZYzScE)
