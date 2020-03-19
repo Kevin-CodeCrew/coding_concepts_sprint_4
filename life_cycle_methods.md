@@ -1,3 +1,4 @@
+###### Top
 #### [Back to Concepts](README.md)
 
 In applications with many components, it’s very important to free up resources taken by the components when they are destroyed.
@@ -18,4 +19,7 @@ componentWillUnmount(){
 ```
 
 [Reference - React Docs](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
+
 [Reference - W3Schools](https://www.w3schools.com/react/react_lifecycle.asp)
+
+[Back to Top](#Top)
