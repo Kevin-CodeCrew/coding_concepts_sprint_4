@@ -53,7 +53,7 @@ Conditional Rendering
 - [IC Repo Link](https://classroom.github.com/a/wy-4_SYn)
 - [IC Answer Repo](https://github.com/cs-fullstack-2020-spring/200319-react-conditional-rendering-ic-autumn-ragland)
 - [CW Repo Link](https://classroom.github.com/a/1OP2glTl)
-- [CW Answer Repo](#)
-- [Classwork Review Video](#)
+- [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/200319-react-conditional-rendering-cw-autumn-ragland)
+- [Classwork Review Video](https://youtu.be/p8awkN4skT4)
 
 [Back to Top](#Top)
