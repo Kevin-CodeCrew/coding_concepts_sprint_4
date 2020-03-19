@@ -44,3 +44,13 @@ Events + Forms
 - [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/200317-react-forms-events-cw-autumn-ragland)
 - [Classwork Review Video](https://youtu.be/9bolMZYzScE)
 - [Extra Practice](https://classroom.github.com/a/dQKnOc82)
+
+## 03/19/2020
+Conditional Rendering
+- [Lecture Repo Link](https://classroom.github.com/a/3phmD-cI)
+- [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/200319-react-conditional-rendering-lecture-autumn-ragland)
+- [IC Repo Link](https://classroom.github.com/a/wy-4_SYn)
+- [IC Answer Repo](#)
+- [CW Repo Link](#)
+- [CW Answer Repo](#)
+- [Classwork Review Video](#)
