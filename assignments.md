@@ -56,4 +56,14 @@ Conditional Rendering
 - [CW Answer Repo](https://github.com/cs-fullstack-2020-spring/200319-react-conditional-rendering-cw-autumn-ragland)
 - [Classwork Review Video](https://youtu.be/p8awkN4skT4)
 
+## 03/24/2020
+Fetch Review + Routes
+- [Lecture Repo Link](https://classroom.github.com/a/e-U2D8lJ)
+- [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/200324-react-routes-lecture-autumn-ragland)
+- [IC Repo Link](https://classroom.github.com/a/q780hGiQ)
+- [IC Answer Repo](#)
+- [CW Repo Link](#)
+- [CW Answer Repo](#)
+- [Classwork Review Video](#)
+
 [Back to Top](#Top)
