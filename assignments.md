@@ -61,8 +61,8 @@ Fetch Review + Routes
 - [Lecture Repo Link](https://classroom.github.com/a/e-U2D8lJ)
 - [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/200324-react-routes-lecture-autumn-ragland)
 - [IC Repo Link](https://classroom.github.com/a/q780hGiQ)
-- [IC Answer Repo](#)
-- [CW Repo Link](#)
+- [IC Answer Repo](https://github.com/cs-fullstack-2020-spring/200324-react-routes-ic-autumn-ragland)
+- [CW Repo Link](https://classroom.github.com/a/w-SQbfVH)
 - [CW Answer Repo](#)
 - [Classwork Review Video](#)
 
