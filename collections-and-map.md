@@ -1,8 +1,6 @@
 ###### Top
 #### [Back to Concepts](README.md)
 # Collections and Map in React
-###### Top
-#### [Back to Concepts](README.md)
 
 ### Using Require:
 `require()` is a function that returns exported data from a JS file. The function take one parameter, the file path of the JS file you wish the evaluate. The returned value must be saved in a variable 
