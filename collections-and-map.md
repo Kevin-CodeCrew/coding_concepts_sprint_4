@@ -37,7 +37,7 @@ Use map to render data on page
     }
 }
 
-export default AppContainer;
+export default DataComponent;
 ```
 You can also use map to render child component for each object in the json array and render the information from props in the child
 ```JSX
@@ -55,7 +55,7 @@ You can also use map to render child component for each object in the json array
     }
 }
 
-export default AppContainer;
+export default DataComponent;
 ```
 
 [Assignment](assignments.md#03/18/2020)
