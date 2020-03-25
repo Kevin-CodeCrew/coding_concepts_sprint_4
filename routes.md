@@ -8,7 +8,7 @@ But in multipage apps, you will get an entirely new page from the server when yo
 When using router you will always import `BrowserRouter as Router` `Link` and `Route`. These imports come from `react-router-dom` which has to be installed. `react-router-dom` is installed by running the command `npm install react-router-dom` in the terminal inside your react app.
 
 All things associated with routes (routes and link) must be nested under the `Router` tag. The element tag `Link` is a router link and has at least one attribute `to`. This attribute determines which path to match when the link is clicked. The element tag `Route` has at least one attribute `path`. The attribute defines a path that will render referenced component.
- 
+
 ## Example 
 ```JSX
 import React, { Component, Fragment } from 'react';
@@ -45,5 +45,7 @@ export default AppContainer;
 [Reference](https://reacttraining.com/react-router/web/example/basic)
 
 [Reference](https://codeburst.io/getting-started-with-react-router-5c978f70df91)
+
+[Assignment](assignments.md#03/24/2020)
 
 [Back to Top](#Top)

@@ -27,8 +27,47 @@ Be sure to *test* what is returned from you api endpoint by hitting the endpoint
         this.setState({ dataArray : json });
     }
 ```
+Use map to render json data on page
+```JSX
+    render() {
+        return (
+            this.state.dataArray.map((item) => {
+                return (
+                    <div key={item.id}>
+                        <p>Item Name: {item.name}</p>
+                        <p>Item Price: {item.price}</p>
+                        <img src="{item.imgUrl}" alt="{item.name}"/>
+                    </div>
+                )
+            })
+        );
+    }
+}
+
+export default AppContainer;
+```
+You can also use map to render child component for each object in the json array and render the information from props in the child
+```JSX
+    render() {
+        return (
+            this.state.dataArray.map((item) => {
+                return (
+                    <div key={item.id}>
+                        <FormatterChild itemName = {item.name} 
+                        itemPrice = {item.price} itemImage = {item.imgUrl}/>
+                    </div>
+                )
+            })
+        );
+    }
+}
+
+export default AppContainer;
+```
 [Reference](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 [Dev.to Fetch Async Await Article](https://dev.to/shoupn/javascript-fetch-api-and-using-asyncawait-47mp)
+
+[Assignment](assignments.md#03/23/2020)
 
 [Back to Top](#Top)

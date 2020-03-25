@@ -6,6 +6,7 @@
 * ### [Rendering Components](rendering_components.md)
 * ### [Life Cycle Methods](life_cycle_methods.md)
 * ### [React Forms](react_forms.md)
+* ### [Collections and Map](collections-and-map.mdV)
 * ### [Conditional Rendering](conditional_rendering.md)
 * ### [Fetch](fetch.md)
 * ### [Routes](routes.md)
