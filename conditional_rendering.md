@@ -8,6 +8,7 @@ You can use variables to store elements. This can help you conditionally render 
 
 [Source](https://reactjs.org/docs/conditional-rendering.html)
 ## Conditional Rendering Using Element Variables
+Set up your class based components and set flags as properties of state for conditional rendering
 ```JSX
 import React, { Component } from 'react';
 import Login from './Login';
@@ -22,7 +23,9 @@ class AppContainer extends Component {
             isSigningIn: false,// flag for conditionally rendering sign in component
         }
     }
-
+```
+Event handlers to update flags for conditional rendering
+```JSX
     // event handler - tied to onClick to update state of conditional render flags to display log in component
     updateIsLoggingIn = () => {
         this.setState({ isSigningIn: false });
@@ -33,7 +36,9 @@ class AppContainer extends Component {
         this.setState({ isLoggingIn: false });
         this.setState({ isSigningIn: true });
     }
-
+```
+Conditionally set value of element variable based on flags
+```JSX
     // display title, buttons, and sign in OR log in form
     render() {
         // declare variable as undefined
@@ -61,6 +66,7 @@ class AppContainer extends Component {
 export default AppContainer;
 ```
 ## Conditional Rendering Using Return
+Set up your class based components and set flag as a property of state for conditional rendering
 ```JSX
 import React, { Component } from 'react';
 
@@ -74,7 +80,9 @@ class Login extends Component {
             hasBeenSubmitted: false, // flag for conditional render
         }
     }
-
+```
+form field event handler
+```JSX
     // conditional event handler - tied to onChange event listener to update state
     handleChange = (event) => {
         // define variables to represent event.target properties
@@ -87,14 +95,18 @@ class Login extends Component {
             this.setState({ [fieldName]: fieldValue })
         }
     }
-
+```
+form submission event handler - update flag when submitted
+```JSX
     // event handler - tied to onClick event listener 
     handleSubmission = (event) => {
         event.preventDefault(); // keeps the page from reloading
         console.log(this.state); // prints form values
         this.setState({ hasBeenSubmitted: true }) // update flag for conditional rendering
     }
-
+```
+Render method with conditional return
+```JSX
     render() {
         // if the if statement evaluates to true 
         // display a success message
@@ -106,6 +118,8 @@ class Login extends Component {
                 </div>
             )
         }
+```
+```JSX
         // if the if statement evaluates to false 
         // display a sign up form using controlled components
         return (

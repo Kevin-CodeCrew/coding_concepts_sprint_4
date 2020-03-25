@@ -55,9 +55,9 @@ export default NameForm;
 
 [Back to Top](#Top)
 ## Forms with Multiple Input Fields with Controlled Components
+Define your class and set a properties of state that you will update via input 
 ```JSX
 import React, { Component } from 'react';
-
 class AddAdoptionForm extends Component {
     constructor(props) {
         super(props);
@@ -68,9 +68,12 @@ class AddAdoptionForm extends Component {
             dogBreed : "",
             dogTraining : false,
             dogColor : "",
+            formSubmission : []
         }
     }
-
+```
+You can use one event handler to update multiple properties of state conditionally
+```JSX
     // one event handler to conditionally update state
     handleChange = (event) => {
         if(event.target.name === "dogName"){
@@ -87,9 +90,21 @@ class AddAdoptionForm extends Component {
             this.setState({dogColor : event.target.value})
         }
     }
-
+```
+Event handler to clear form on submission
+```JSX
     handleSubmission = (event) => {
         event.preventDefault(); // keep page from reloading
+        // add form values to submission array
+        this.state.formSubmission.push({
+            dogName : this.state.dogName,
+            dogAge : this.state.dogName,
+            dogBreed : this.state.dogBreed,
+            dogTraining : this.state.dogTraining,
+            dogColor : this.state.dogColor,
+        });
+        // update state of submission array globally
+        this.setState({formSubmission : this.state.formSubmission})
         // set state to initial values
         this.setState({
             dogName : "",
@@ -99,8 +114,9 @@ class AddAdoptionForm extends Component {
             dogColor : "",
         })
     }
-
-    // render form
+```
+Render the form!
+```JSX
     render() {
         return (
             <div>
@@ -154,7 +170,6 @@ class AddAdoptionForm extends Component {
         )
     }
 }
-
 export default AddAdoptionForm;
 ```
 ### Additional information:

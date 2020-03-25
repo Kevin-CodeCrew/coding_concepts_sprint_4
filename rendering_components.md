@@ -34,7 +34,7 @@ function App() {
 }
 export default App;
 ```
-### Rendering a component in a your own parent class component
+### Rendering a child component
 ```JSX
 import React, { Component } from 'react';
 class ChildComponent extends Component {
@@ -45,7 +45,7 @@ class ChildComponent extends Component {
         return (
             <div>
                 <h1>I'm the child component!</h1>
-                <h3>The parent component told me to say {this.props.message}/>
+                <h3>The parent component told me to say {this.props.message}</h3>
             </div>
         );
     }
@@ -70,7 +70,7 @@ class ParentComponent extends Component {
 }
 export default ParentComponent;
 ```
-### Rendering a child component using map
+### Rendering child components using map
 ```JSX
 import React, { Component } from 'react';
 import ChildComponent from './components/ChildComponent'
@@ -84,7 +84,13 @@ class ParentComponent extends Component {
             <div>
                 <h1>I'm the parent component!</h1>
                 <div>
-                {messageArray.map( m => <ChildComponent message = {m}/>)}
+                {
+                    messageArray.map( (message, index) => {
+                        return(
+                            <ChildComponent key = {index} message = {message}/>
+                        )
+                    })
+                }
                 </div>
             </div>
         );
@@ -92,7 +98,35 @@ class ParentComponent extends Component {
 }
 export default ParentComponent;
 ```
-
+### Rendering content using map
+```JSX
+import React, { Component } from 'react';
+class ParentComponent extends Component {
+    constructor(props){
+        super(props);
+    }
+    render() {
+        let messageArray = ["You're doing great", "React is cool", "Learning is fun"]
+        return (
+            <div>
+                <h1>I'm the parent component!</h1>
+                <div>
+                {
+                    messageArray.map((message, index) => {
+                        return(
+                            <div key = {index}>
+                                <p>Here's some encouragement : {message}</p>
+                            </div>
+                        )
+                    })
+                }
+                </div>
+            </div>
+        );
+    }
+}
+export default ParentComponent;
+```
 [Assignment](assignments.md#03/11/2020)
 
 [Back to Top](#Top)
