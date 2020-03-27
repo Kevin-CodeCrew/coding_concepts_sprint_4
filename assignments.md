@@ -99,10 +99,12 @@ Fetch Review + Routes
 Review
 - [Lecture Repo Link](https://classroom.github.com/a/EWvBC4Y0)
 - [IC Repo Link](https://classroom.github.com/a/ioE-u07j)
-<!-- - [IC Answer Repo](#)
-- [CW Repo Link](#)
-- [CW Answer Repo](#)
-- [Classwork Review Video](#) -->
+
+## 03/26/2020
+Review
+- [Assessment Repo Link](https://classroom.github.com/a/I6yOU-ZC)
+- [Assessment Answer Repo](https://github.com/cs-fullstack-2020-spring/coding-concepts-assessment-2-autumn-ragland)
+- [Assessment Review Video](https://youtu.be/GeKhpZgSn3Q)
 
 [Back to Top](#Top)
 ###### Bottom
