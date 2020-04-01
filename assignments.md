@@ -83,7 +83,8 @@ React Retro Challenges:
 Fetch - Async Await
 - [Lecture Repo Link](https://classroom.github.com/a/IyRK23v3)
 - [Lecture Answer Repo](https://github.com/cs-fullstack-2020-spring/react-open-api-lecture-3wcircus)
-- [CW Repo Link](https://classroom.github.com/a/n8AMkr1y)
+- [CW Repo Link - Pokedex](https://classroom.github.com/a/n8AMkr1y)
+- [CW Answer Repo - Pokedex](https://github.com/Kevin-CodeCrew/react-pokedex-async-await)
 
 ## 03/24/2020
 Fetch Review + Routes
